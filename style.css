@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.heading-main {
+  text-align: center;
+  padding: 50px 0px 50px 0px;
+}
+
+.form-body {
+  background-color: white;
+  border-radius: 7px;
+}
+
+.main-box {
+  background-color: rgb(218, 218, 218);
+  height: 100vh;
+}
+
+.submit-button {
+  border-radius: 150px !important;
+  outline: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: black;
+}
+
+.form-select:focus {
+  box-shadow: none;
+  border-color: black;
+}
+
+.submit-button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border-color: black;
+}
